@@ -278,35 +278,12 @@ h5 {
 
 @media (max-width: 1000px) {
   /* Navigation */
-  .main-header {
-    display: flex;
-    flex-direction: row;
-  }
-
   .main-header .navbar {
-    padding: 10px;
-    display: flex;
     flex-direction: column;
   }
 
   .main-header .navbar ul {
-    display: flex;
     order: 2;
-  }
-
-  .main-header .navbar ul li {
-    padding: 5px 25px 0 25px;
-  }
-
-  .main-header .navbar ul li a {
-    color: rgb(119, 118, 118);
-    text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
-  }
-
-  .main-header .navbar ul li a:hover {
-    opacity: 0.7;
   }
 
   .main-header .logo {
@@ -317,14 +294,11 @@ h5 {
 
 @media (max-width: 750px) {
   /* Navigation */
-
   .main-header .navbar {
-    display: flex;
     flex-direction: column;
   }
 
   .main-header .navbar ul {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -332,40 +306,6 @@ h5 {
 
   .main-header .navbar ul li {
     padding: 5%;
-  }
-
-  .main-header .navbar ul li a {
-    color: rgb(119, 118, 118);
-    text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
-  }
-
-  .main-header .navbar ul li a:hover {
-    opacity: 0.7;
-  }
-
-  .main-header .logo {
-    margin: 0.4% 0 0 5%;
-  }
-
-  /* services page */
-  .tiny-container {
-    max-width: 890px;
-    margin: auto;
-  }
-  .services-header-img {
-    display: block;
-    margin: 1% auto;
-  }
-
-  .showcase h1 {
-    font-size: 25px;
-    margin-top: 5%;
-  }
-
-  .showcase p {
-    margin-bottom: 5%;
   }
 
   /* boxes */
@@ -377,38 +317,13 @@ h5 {
 
   .boxes .box-container .box {
     width: 80%;
-
     border: 2px solid black;
     padding: 5%;
     background: rgb(236, 236, 236);
   }
 
-  .boxes .box-container .box h1 {
-    font-size: 20px;
-  }
-
-  .boxes .box-container .box p {
-    margin-bottom: 10%;
-  }
-
-  .boxes .box-container .box a {
-    color: #333;
-    text-decoration: none;
-    padding: 5px 25px 5px 25px;
-    background: rgb(252, 252, 252);
-    border-radius: 10px;
-    border: 1px solid black;
-  }
-
-  .boxes .box-container .box a:hover {
-    background: #333;
-    color: #ccc;
-  }
-
   /* Bottom section */
   .bottom-section-container {
-    margin-top: 3%;
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
