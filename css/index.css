@@ -230,7 +230,7 @@ h5 {
   margin-bottom: 2%;
 }
 
-.box {
+.main-section .box {
   padding: 0 20px 0 0;
 }
 
@@ -246,6 +246,7 @@ h5 {
 
 /* Tablet */
 @media (max-width: 900px) {
+  /* Navigation */
   .main-header .navbar {
     display: flex;
     flex-direction: column;
